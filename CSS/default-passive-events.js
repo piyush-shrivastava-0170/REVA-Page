@@ -30,4 +30,4 @@
         EventTarget.prototype.addEventListener._original = e
     }
 });
-//# sourceMappingURL=index.umd.js.map
+
