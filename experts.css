@@ -1,0 +1,59 @@
+/* 
+.Experts {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.Experts h5{
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Experts p{
+    display: flex;
+    align-items: flex-start;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 5px;
+} */
+.experts-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.expert {
+    text-align: center;
+    color: #fff;
+}
+
+.expert img {
+    width: 100%;
+    max-width: 200px; /* Adjust max-width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.expert .details {
+    max-width: 200px; /* Same as max-width of the image */
+    margin: 10px auto 0;
+}
+
+.expert .name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.expert .designation {
+    font-size: 1em;
+    color: #fff;
+    margin-top: 5px;
+}
