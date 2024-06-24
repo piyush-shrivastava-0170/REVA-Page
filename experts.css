@@ -21,12 +21,18 @@
     color: #fff;
     margin-top: 5px;
 } */
+
+body {
+   
+    background-color: #0096a1; 
+}
 .experts-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
+
 
 .expert {
     text-align: center;
@@ -34,15 +40,16 @@
 }
 
 .expert img {
-    width: 100%;
-    max-width: 200px; /* Adjust max-width as needed */
+    width: 200%;
+    max-width: 370px; /* Adjust max-width as needed */
     height: auto;
     display: block;
     margin: 0 auto;
+    
 }
 
 .expert .details {
-    max-width: 200px; /* Same as max-width of the image */
+    max-width: 370px; /* Same as max-width of the image */
     margin: 10px auto 0;
 }
 
@@ -55,5 +62,5 @@
 .expert .designation {
     font-size: 1em;
     color: #fff;
-    margin-top: 5px;
+    margin-top: 7px;
 }
