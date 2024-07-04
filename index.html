@@ -240,15 +240,17 @@
                                        
                       <!-- homepage banner end -->
                    </div>
-                   <div style="padding: 0; margin-bottom: 20px; background: linear-gradient(90deg, #f5c000, #f8d200); border: 1px solid #e3e3e3; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0,0,0,.05);" class="news_flash">
-                     <marquee scrollamount="10" scrolldelay="1" direction="left" align="center" style="height: 50px; padding: 5px 10px;">
-                         <h1 style="font-size: 25px; font-weight: 700; text-align: center; color: #fff; margin: 0; padding: 7px;">
-                             Centre of Excellence for Geopolitics and International Studies
-                         </h1>
-                     </marquee>
+                   <div style="padding: 0; margin-bottom: 0; background: linear-gradient(90deg, #f5c000, #f8d200); border: 1px solid #e3e3e3; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0,0,0,.05); overflow: hidden; height: 50px; display: flex; align-items: center;">
+                     <h1 style="font-size: 25px; font-weight: 700; color: #fff; margin: 0; white-space: nowrap; animation: marquee 10s linear infinite;">
+                         Centre of Excellence for Geopolitics and International Studies
+                     </h1>
+                     <style>
+                         @keyframes marquee {
+                             0% { transform: translateX(100%); }
+                             100% { transform: translateX(-100%); }
+                         }
+                     </style>
                  </div>
-                 
-                 
                    
                      
                    <!-- studay at  -->
@@ -288,16 +290,7 @@
                                   <div class="bowse-by aos-init" data-aos="fade-down" data-aos-offset="100" data-aos-easing="ease-in" data-aos-duration="50">
                                     
                                   <div>
-                                    <!-- <h2><span style="color:black">Highlights</span></h2> -->
-                                       
-                                       <!-- <table class="table">
-                                             <tbody><tr>
-                                                <td><a href="highlights.html">Black Sea Persian Gulf corridor</a></td>
-                                             </tr>
-                                             <tr>
-                                                <td><a href="highlights2.html">India Russia Trade has Multiple Choices for Routing</a></td>
-                                             </tr>
-                                       </tbody></table> -->
+                                    
                                        <div style="padding: 0px; margin-bottom: 20px; background-color: transparent; border: 1px solid #e3e3e3; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05); box-shadow: inset 0 1px 1px rgba(0,0,0,.05);" class="news_flash">
                                           <h3 style="font-size: 22px; font-weight: 700; text-align: center; background: #0096a1; color: #fff; margin: 0; padding: 7px;">Highlights</h3>
                                           <marquee scrollamount="3" scrolldelay="3" direction="up" align="left" onmouseover="stop();" onmouseout="start();" style="height: 280px; padding: 0 20px;">
