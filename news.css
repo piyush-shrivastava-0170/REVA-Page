@@ -1,0 +1,36 @@
+.home-happening{
+    padding: 60px;
+}
+.events-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.event-card {
+    flex: 0 0 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.event-card .date {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.event-card .description {
+    font-size: 1.2em;
+}
+.purple { background-color: #c9a1d6; }
+.green { background-color: #7ee1c8; }
+.blue { background-color: #7aa8e0; }
+.cyan { background-color: #8dd8d3; }
+.orange { background-color: #f5a662; }
+.gray { background-color: #9e9e9e; }
+
+.anker{
+    height: auto;
+    width: 20px;
+}
