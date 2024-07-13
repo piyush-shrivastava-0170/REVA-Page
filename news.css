@@ -22,6 +22,7 @@
 }
 .event-card .description {
     font-size: 1.2em;
+    
 }
 .purple { background-color: #c9a1d6; }
 .green { background-color: #7ee1c8; }
@@ -33,4 +34,7 @@
 .anker{
     height: auto;
     width: 20px;
+}
+.description{
+    color: #fff;
 }
